@@ -20,16 +20,6 @@ int main(){
 
     printf("\n\n\n");
 
-    // for(int i=0;i<3;i++){
-    //     printf("|");
-    //     for(int j=0;j<3;j++){
-    //         printf("%4d ",matrix1[i][j]);    //here %4d maintains that every number will contain 4 spaces useful for alliginment
-    //     }
-    //     printf("|");
-    //     printf("\n");
-         
-    // }
-
     //sum
     for(int i=0;i<3;i++){
         for(int j=0;j<3;j++){
