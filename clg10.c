@@ -15,5 +15,6 @@ int main() {
     } else {
         printf("It is a special symbol.\n");
     }
+
     return 0;
 }
