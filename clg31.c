@@ -7,14 +7,14 @@ int main(){
     for(i=1;i<=num;i++){
         k=0;
         for(j=1;j<num+i;j++){
-            if(j<=num-i) printf(" ");
+            if(j<=num-i) printf("  ");
             else if(j>num-i && j<=num){
                 k++;
-                printf("%d",k);    
+                printf("%d ",k);    
             }
             else{
                 k--;
-                printf("%d",k);    
+                printf("%d ",k);    
             }
         }
         printf("\n");
